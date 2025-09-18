@@ -15,4 +15,7 @@ As a result, image spoofing is not only a complex technical problem but also a m
 
 With the increasing spread of face-based interactive systems, the security and reliability of these systems have become an important issue, and many research efforts have been made in this field. Among these efforts, countering face spoofing attacks has emerged as an important area, which aims to detect whether the face presented to the system is real or fake.
 Despite the progress made in this field, many existing methods still face difficulties in countering complex attacks and in real scenarios. The main reason for this weakness is the limitation of the existing datasets in the number of samples and their diversity. To overcome these challenges, a large dataset in the field of countering face spoofing called CelebA-Spoof was presented in 2020. This dataset contains 625,537 images of 10,177 different individuals, which is much larger in size than previous datasets. The fake images in this set were collected in 8 different situations (a combination of 2 environments × 4 lighting conditions) and using more than 10 different sensors.
-<img width="974" height="431" alt="image" src="https://github.com/user-attachments/assets/7375ed30-f658-4dfb-9a88-dfd74e11ae4d" />
+
+https://arxiv.org/pdf/2007.12342
+<img width="779" height="345" alt="Picture1" src="https://github.com/user-attachments/assets/d2e5ed84-4623-407a-8144-9f9b1e09a813" />
+
