@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 import os
 
-adr = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\Training Set'
+adr = r'C:\Users\fece Detection_Recognition\Training Set'
 
 people = sorted(os.listdir(adr))
 print("People:", people)
@@ -50,5 +50,6 @@ np.save('labels.npy', labels)
 print("Training done and saved.")
 
 print("length of of the features list = " , len(features))
+
 
 print("length of labels list = " , len(labels))
