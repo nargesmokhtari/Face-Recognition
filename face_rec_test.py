@@ -5,11 +5,11 @@ haar_cascade = cv.CascadeClassifier('haar_face.xml')
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
-train_dir = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\Training Set'
+train_dir = r'C:\Users\fece Detection_Recognition\Training Set'
 people = sorted(os.listdir(train_dir))  
 print("People labels:", people)
 
-val_dir = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\Validation Set'
+val_dir = r'C:\Users\fece Detection_Recognition\Validation Set'
 
 total_images = 0
 correct_predictions = 0
@@ -53,3 +53,4 @@ print(f"\n Correct Predictions: {correct_predictions}")
 print(f" Total Images: {total_images}")
 accuracy = (correct_predictions / total_images) * 100 if total_images > 0 else 0
 print(f" Accuracy: {accuracy:.2f}%")
+
