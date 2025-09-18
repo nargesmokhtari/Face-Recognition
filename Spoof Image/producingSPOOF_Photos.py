@@ -3,13 +3,13 @@ import numpy as np
 import os
 from random import randint
 
-spoof_folder = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\SpoofImage'
+spoof_folder = r'C:\Users\fece Detection_Recognition\SpoofImage'
 
-input_adr_training = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\Training Set' 
-input_adr_validation = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\Validation Set' 
+input_adr_training = r'C:\Users\fece Detection_Recognition\Training Set' 
+input_adr_validation = r'C:\Users\fece Detection_Recognition\Validation Set' 
 
-output_spoof_adr_training = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\SpoofImage\Training Set'
-output_spoof_adr_validation = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\SpoofImage\Validation Set'
+output_spoof_adr_training = r'C:\Users\fece Detection_Recognition\SpoofImage\Training Set'
+output_spoof_adr_validation = r'C:\Users\fece Detection_Recognition\SpoofImage\Validation Set'
 
 
 # Illumination Transformations
@@ -144,4 +144,5 @@ def apply_spoof_to_folder(input_path, output_path):
 
 
 apply_spoof_to_folder(input_adr_training, output_spoof_adr_training)
+
 apply_spoof_to_folder(input_adr_validation, output_spoof_adr_validation)
