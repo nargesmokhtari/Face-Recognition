@@ -5,8 +5,8 @@ from sklearn.svm import SVC
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-base_train = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\Anti_Spoofing_SET\Training'
-base_val = r'C:\Users\mokht.LAPTOP-2TQ72D8U\Desktop\fece Detection_Recognition\Anti_Spoofing_SET\Validation'
+base_train = r'C:\Users\fece Detection_Recognition\Anti_Spoofing_SET\Training'
+base_val = r'C:\Users\fece Detection_Recognition\Anti_Spoofing_SET\Validation'
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
@@ -124,4 +124,5 @@ if identity_total > 0:
     print(f"Face Recognition Accuracy: {identity_correct / identity_total * 100:.2f}%")
 else:
     print("No correctly classified live images were processed.")
+
 
